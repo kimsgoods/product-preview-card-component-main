@@ -1,0 +1,76 @@
+body{
+    background-color: hsl(30, 38%, 92%);;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin: 50px 300px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.perfume{
+    font-family: "Monsterrat";
+
+    font-weight: 700;
+}
+
+.perfume-name{
+    font-family: "Fraunces";
+    font-weight: 700;
+    color:hsl(212, 21%, 14%);
+}
+
+
+.perfume-pic{
+    width: auto;
+    height : auto;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.description{
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+
+}
+.price-discount{
+    font-family: "Fraunces";
+    font-weight: 700;
+    font-size: x-large;
+    color: hsl(158, 36%, 37%);
+}
+.price-original{
+    font-family: "Fraunces";
+    font-weight: 700;
+    font-size: smaller;
+    color: hsl(158, 36%, 37%);
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
